@@ -4,29 +4,35 @@ class LoginText extends StatelessWidget {
   final TextEditingController controller;
   final String HintText;
   final bool obscureText;
-  const LoginText({super.key, required this.HintText, required this.controller, required this.obscureText});
+  final IconData Icons;
+  const LoginText(
+      {super.key,
+      required this.HintText,
+      required this.controller,
+      required this.obscureText,
+      required this.Icons
+      });
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
       height: 55,
-      width: 250,
+      width: 280,
       child: Center(
         child: TextField(
           cursorColor: Colors.black,
-          
           controller: controller,
           obscureText: obscureText,
           decoration: InputDecoration(
-            hintText: HintText,
-            
-            enabledBorder: OutlineInputBorder(
-              borderSide: BorderSide(),
-            ),
-            focusedBorder: OutlineInputBorder(
-              borderSide: BorderSide(),
-            )
-          ),
+              hintText: HintText,
+              prefixIcon: Icon(Icons),
+              prefixIconColor: Colors.black87,
+              enabledBorder: const OutlineInputBorder(
+                borderSide: BorderSide(),
+              ),
+              focusedBorder: const OutlineInputBorder(
+                borderSide: BorderSide(),
+              )),
         ),
       ),
     );
