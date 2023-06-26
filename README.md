@@ -1,6 +1,6 @@
 # assignmnet
-
-A new Flutter project.
+create a UI of E-commerce app using Flutter, Dart &
+FireBase.
 
 ## Getting Started
 
