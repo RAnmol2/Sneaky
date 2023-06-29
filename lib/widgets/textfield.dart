@@ -36,15 +36,6 @@ class LoginText extends StatelessWidget {
         ),
       ),
     );
-    // return Container(
-    //   height: 42,
-    //   width: 250,
-    //   child: TextFormField(
-    //     decoration: InputDecoration(
-    //       hintText: HintText,
-    //       enabledBorder: OutlineInputBorder(borderSide: BorderSide()),
-    //     ),
-    //   ),
-    // );
+
   }
 }
