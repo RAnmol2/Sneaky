@@ -43,7 +43,7 @@ class _LoginScreenState extends State<LoginScreen> {
             title: Center(
                 child: Text(
               messaeg,
-              style: TextStyle(color: Colors.red),
+              style:const TextStyle(color: Colors.red),
             )),
           );
         });
@@ -51,7 +51,7 @@ class _LoginScreenState extends State<LoginScreen> {
 
   @override
   void dispose() {
-    // TODO: implement dispose
+    
     super.dispose();
     emailEditingControler.dispose();
     passwordEditingControler.dispose();
