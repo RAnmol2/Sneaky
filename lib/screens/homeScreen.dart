@@ -1,5 +1,5 @@
-import 'package:assignmnet/Pages/homeBar/homeBar.dart';
-import 'package:assignmnet/Pages/profile/profileBar.dart';
+import 'package:Sneaky/Pages/homeBar/homeBar.dart';
+import 'package:Sneaky/Pages/profile/profileBar.dart';
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
 import '../Pages/cartBar/cart.dart';

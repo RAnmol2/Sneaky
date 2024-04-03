@@ -1,8 +1,8 @@
-import 'package:assignmnet/Pages/homeBar/homeBar.dart';
-import 'package:assignmnet/Pages/profile/editingProfile.dart';
-import 'package:assignmnet/Pages/profile/profileTiles.dart';
-import 'package:assignmnet/screens/homeScreen.dart';
-import 'package:assignmnet/screens/loginScreen.dart';
+import 'package:Sneaky/Pages/homeBar/homeBar.dart';
+import 'package:Sneaky/Pages/profile/editingProfile.dart';
+import 'package:Sneaky/Pages/profile/profileTiles.dart';
+import 'package:Sneaky/screens/homeScreen.dart';
+import 'package:Sneaky/screens/loginScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

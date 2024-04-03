@@ -1,4 +1,4 @@
-import 'package:assignmnet/Pages/auth_page.dart';
+import 'package:Sneaky/Pages/auth_page.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';

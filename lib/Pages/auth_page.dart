@@ -1,5 +1,5 @@
-import 'package:assignmnet/screens/homeScreen.dart';
-import 'package:assignmnet/screens/loginScreen.dart';
+import 'package:Sneaky/screens/homeScreen.dart';
+import 'package:Sneaky/screens/loginScreen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
@@ -15,9 +15,9 @@ class AuthPage extends StatelessWidget {
       stream: FirebaseAuth.instance.authStateChanges(),
       builder: (context, snapshot) {
         if (snapshot.hasData) {
-          return HomeScreen();
+          return const HomeScreen();
         } else {
-          return LoginScreen();
+          return const LoginScreen();
         }
       },
     ));

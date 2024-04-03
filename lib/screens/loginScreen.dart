@@ -1,5 +1,5 @@
-import 'package:assignmnet/screens/signUpScreen.dart';
-import 'package:assignmnet/widgets/textfield.dart';
+import 'package:Sneaky/screens/signUpScreen.dart';
+import 'package:Sneaky/widgets/textfield.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 

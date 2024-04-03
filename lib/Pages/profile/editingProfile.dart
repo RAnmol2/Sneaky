@@ -1,5 +1,5 @@
-import 'package:assignmnet/Pages/profile/profileBar.dart';
-import 'package:assignmnet/widgets/textfield.dart';
+import 'package:Sneaky/Pages/profile/profileBar.dart';
+import 'package:Sneaky/widgets/textfield.dart';
 import 'package:flutter/material.dart';
 
 class EditingProfile extends StatefulWidget {
