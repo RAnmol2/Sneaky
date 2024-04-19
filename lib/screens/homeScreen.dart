@@ -21,7 +21,7 @@ class _HomeScreenState extends State<HomeScreen> {
     });
   }
 
-  List<Widget> _Bar = [
+  static const List<Widget> _Bar = [
     HomeBar(),
     CartBar(),
     ProfilePage(),

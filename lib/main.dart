@@ -19,9 +19,9 @@ class MyApp extends StatelessWidget {
     return ChangeNotifierProvider(
         create: (context) => Cart(),
         builder: (context, index) => const MaterialApp(
-        title: 'Assignment',
+        title: 'Sneaky',
         debugShowCheckedModeBanner: false,
        
-        home: const AuthPage()));
+        home: AuthPage()));
   }
 }

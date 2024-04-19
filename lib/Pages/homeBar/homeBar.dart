@@ -142,7 +142,7 @@ class _HomeBarState extends State<HomeBar> {
                     ),
                   
                     //list of shoes
-                    Container(
+                    SizedBox(
                       height: 330,
                       child: ListView.builder(
                           scrollDirection: Axis.horizontal,
