@@ -40,7 +40,6 @@ class _HomeBarState extends State<HomeBar> {
   Widget build(BuildContext context) {
     return Consumer<Cart>(
         builder: (context, value, child) => Scaffold(
-          resizeToAvoidBottomInset: false,
               backgroundColor: Colors.grey[300],
               body: SingleChildScrollView(
                 child: Column(
